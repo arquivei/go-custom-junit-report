@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites id="testsuites#1" name="test_report" tests="4" failures="3" errors="3">
+    <testsuite id="testsuite#1" name="suite 1" tests="2" failures="3" errors="3">
+        <testcase id="case#1" name="case 1" classname="report.TestMakeReport"></testcase>
+        <testcase id="case#2" name="case 2" classname="report.TestMakeReport">
+            <failure message="msg1" type="type_fail">test failure 1</failure>
+            <failure message="msg2" type="type_fail">test failure 2</failure>
+            <failure message="msg3" type="type_fail">test failure 3</failure>
+            <error message="msg4" type="type_err">test error 1</error>
+            <error message="msg5" type="type_err">test error 2</error>
+            <error message="msg6" type="type_err">test error 3</error>
+        </testcase>
+    </testsuite>
+    <testsuite tests="2" failures="0" errors="0">
+        <testcase></testcase>
+        <testcase></testcase>
+    </testsuite>
+</testsuites>
