@@ -240,6 +240,9 @@ func TestResolve(t *testing.T) {
 
 	suites.resolve()
 	assert.Equal(t, resolved, suites)
+
+	suites.resolve()
+	assert.Equal(t, resolved, suites)
 }
 
 func mustLoadFile(name string) []byte {
